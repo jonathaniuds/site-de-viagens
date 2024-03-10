@@ -1,0 +1,32 @@
+
+header{
+    background-color: #ec7f26;
+    font-weight: 600;
+
+}
+
+.navbar.custom {
+    width: 50%;  
+    margin: 0 auto;
+  }
+
+.carousel-inner img{
+    max-width:1900px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+}

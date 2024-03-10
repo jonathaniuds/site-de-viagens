@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+</head>
+<body>
+    <form method="GET" action="">
+        <fieldset>
+            <legend>Dados da reserva</legend>
+            <label>Nome:</label><br>
+            <input type="text" name="nome" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Serviços desejados</legend>
+            <label>
+            <br><input type="checkbox" name="passagem" value="passagem">Passagem
+            </label>
+
+            <label>
+            <br><input type="checkbox" name="reservaHospedagem" value="reservaHospedagem">Reserva de hospedagem
+            </label>
+
+            <label>
+            <br><input type="checkbox" name="veiculos" value="veiculos">Aluguel de veículos
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Forma de pagamentos</legend>
+            <label>
+            <br><input type="radio" name="formaPagamento" value="cartaoCredito">Cartão de crédito
+            </label>
+
+            <label>
+            <br><input type="radio" name="formaPagamento" value="boleto">Boleto
+            </label>
+
+            <label>
+            <br><input type="radio" name="formaPagamento" value="pix">Pix    
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Prazo de pagamento</legend>
+            <select name="prazoPagamento" id="">
+            <option value="aVista">Á vista</option>
+            <option value="5xsemJuros">5x sem juros</option>
+            <option value="10xcomJuros">10x com juros</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit">
+    </form>
+    <footer>
+        <p>Desenvolvido por Jonathan  Iuds</p>
+     </footer>   
+</body>
+</html>
